@@ -1,0 +1,45 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 761c315e09bafb346b13c0664b996b12, type: 3}
+  m_Name: BasicGun
+  m_EditorClassIdentifier: 
+  icon: {fileID: 21300000, guid: db4fddd28f85aa24885ed52cd33aa676, type: 3}
+  Name: BasicGun
+  Description: 
+  Notes: 
+  poolInfo:
+    type: 0
+    amount: 10
+    prefab: {fileID: 7293637898832343266, guid: 2a439c9d5bcbd5b40840cd6c1affa473, type: 3}
+    container: {fileID: 0}
+    pool:
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+  bullet: {fileID: 7293637898832343266, guid: 2a439c9d5bcbd5b40840cd6c1affa473, type: 3}
+  velocity: 15
+  damage: 1
+  minTrasnformX: 1
+  maxTransformX: 1
+  minTransformY: 1
+  maxTransformY: 1
+  numOfBullet: 1
+  timeBtwBullet: 0
+  timeBtwShoot: 0.3
+  timeToDestroy: 3

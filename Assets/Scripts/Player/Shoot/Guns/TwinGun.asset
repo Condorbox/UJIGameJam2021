@@ -1,0 +1,40 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 761c315e09bafb346b13c0664b996b12, type: 3}
+  m_Name: TwinGun
+  m_EditorClassIdentifier: 
+  icon: {fileID: 21300000, guid: f8c4d96d407d32b4a8b6d0bb46dd22c5, type: 3}
+  Name: TwinGun
+  Description: 
+  Notes: 
+  poolInfo:
+    type: 13
+    amount: 5
+    prefab: {fileID: 4121228120702616640, guid: b01e8defa85aa454bb91f960f816946f, type: 3}
+    container: {fileID: 0}
+    pool:
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+  bullet: {fileID: 4121228120702616640, guid: b01e8defa85aa454bb91f960f816946f, type: 3}
+  velocity: 13
+  damage: 1
+  minTrasnformX: 1
+  maxTransformX: 1
+  minTransformY: 1
+  maxTransformY: 1
+  numOfBullet: 2
+  timeBtwBullet: 0.25
+  timeBtwShoot: 0.35
+  timeToDestroy: 0
